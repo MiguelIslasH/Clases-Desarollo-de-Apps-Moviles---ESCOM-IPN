@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Excercise3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="38dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "text"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Texto plano" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "textPersonName"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Nombre personal" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "textPassword"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Password text" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "numberPassword"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Password number" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "textEmailAddress"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Email" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "phone"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Teléfono" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "textPostalAddress"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Dirección postal" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "textMultiLine"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Multiples líneas" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "time"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Tiempo" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "date"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Fecha" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "number"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Numerico" />
+
+            <EditText
+                android:layout_width = "match_parent"
+                android:inputType = "numberSigned"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Numeros con signo" />
+
+            <EditText
+                android:id="@+id/txtFin"
+                android:layout_width = "match_parent"
+                android:inputType = "numberDecimal"
+                android:layout_height = "wrap_content"
+                android:layout_centerHorizontal = "true"
+                android:layout_centerVertical = "true"
+                android:layout_marginTop="20dp"
+                android:hint = "Decimales" />
+
+            <Button
+                android:id="@+id/btnNextActivity3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtFin"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="Siguiente"
+                />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

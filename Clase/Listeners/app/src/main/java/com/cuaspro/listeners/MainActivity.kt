@@ -4,7 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+
 class MainActivity : AppCompatActivity() {
+    private lateinit var txtDatos : EditText
+    private lateinit var btnEnviar : Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -13,8 +16,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setup(){
-        var txtDatos : EditText = findViewById(R.id.txtDatos)
-        var btnEnviar : Button = findViewById(R.id.btnEnviar)
+        txtDatos = findViewById(R.id.txtDatos)
+        btnEnviar = findViewById(R.id.btnEnviar)
 
         btnEnviar.setOnClickListener({
             sendData(txtDatos)

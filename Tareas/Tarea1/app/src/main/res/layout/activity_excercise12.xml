@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/xet1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="busca el foco"
+        android:nextFocusRight="@+id/xet2"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/xet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Foco 2"
+        android:nextFocusLeft="@+id/xet1"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnNextActivity12_13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/xet2"
+        />
+</LinearLayout>
